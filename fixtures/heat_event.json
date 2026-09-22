@@ -1,0 +1,676 @@
+{
+  "expected_actions": [
+    {
+      "recommended_action": null,
+      "window_index": 0
+    },
+    {
+      "recommended_action": "现场复核",
+      "window_index": 1
+    },
+    {
+      "recommended_action": "降温补水",
+      "window_index": 2
+    },
+    {
+      "recommended_action": "转运",
+      "window_index": 3
+    }
+  ],
+  "expected_quality": {
+    "1": [],
+    "2": [
+      "reading_conflict",
+      "out_of_range"
+    ],
+    "3": [
+      "sensor_missing",
+      "clock_drift"
+    ]
+  },
+  "finalize_after_ms": 255000,
+  "protocol_fingerprint": "6696cfce9cd3dfc2274c61581ab8edf65a0b57305c9f0408a57f67bcec3eb028",
+  "protocol_id": "heat@2026.09.01",
+  "samples": [
+    {
+      "channels": {
+        "core_temp": 37.1,
+        "spo2": 97.5
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 500,
+      "seq": 1,
+      "ts": 0
+    },
+    {
+      "channels": {
+        "core_temp": 37.2
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 600,
+      "seq": 1,
+      "ts": 0
+    },
+    {
+      "channels": {
+        "eeg": 28.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 700,
+      "seq": 1,
+      "ts": 0
+    },
+    {
+      "channels": {
+        "core_temp": 37.11666666666667,
+        "spo2": 97.5
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 10500,
+      "seq": 2,
+      "ts": 10000
+    },
+    {
+      "channels": {
+        "core_temp": 37.2
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 10600,
+      "seq": 2,
+      "ts": 10000
+    },
+    {
+      "channels": {
+        "eeg": 28.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 10700,
+      "seq": 2,
+      "ts": 10000
+    },
+    {
+      "channels": {
+        "core_temp": 37.13333333333333,
+        "spo2": 97.5
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 20500,
+      "seq": 3,
+      "ts": 20000
+    },
+    {
+      "channels": {
+        "core_temp": 37.2
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 20600,
+      "seq": 3,
+      "ts": 20000
+    },
+    {
+      "channels": {
+        "eeg": 28.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 20700,
+      "seq": 3,
+      "ts": 20000
+    },
+    {
+      "channels": {
+        "core_temp": 37.15,
+        "spo2": 97.5
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 30500,
+      "seq": 4,
+      "ts": 30000
+    },
+    {
+      "channels": {
+        "core_temp": 37.2
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 30600,
+      "seq": 4,
+      "ts": 30000
+    },
+    {
+      "channels": {
+        "eeg": 28.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 30700,
+      "seq": 4,
+      "ts": 30000
+    },
+    {
+      "channels": {
+        "core_temp": 37.16666666666667,
+        "spo2": 97.5
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 40500,
+      "seq": 5,
+      "ts": 40000
+    },
+    {
+      "channels": {
+        "core_temp": 37.2
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 40600,
+      "seq": 5,
+      "ts": 40000
+    },
+    {
+      "channels": {
+        "eeg": 28.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 40700,
+      "seq": 5,
+      "ts": 40000
+    },
+    {
+      "channels": {
+        "core_temp": 37.18333333333334,
+        "spo2": 97.5
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 50500,
+      "seq": 6,
+      "ts": 50000
+    },
+    {
+      "channels": {
+        "core_temp": 37.2
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 50600,
+      "seq": 6,
+      "ts": 50000
+    },
+    {
+      "channels": {
+        "eeg": 28.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 50700,
+      "seq": 6,
+      "ts": 50000
+    },
+    {
+      "channels": {
+        "core_temp": 38.6,
+        "spo2": 95.8
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 60500,
+      "seq": 7,
+      "ts": 60000
+    },
+    {
+      "channels": {
+        "core_temp": 38.5
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 60800,
+      "seq": 7,
+      "ts": 60000
+    },
+    {
+      "channels": {
+        "eeg": 35.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 60700,
+      "seq": 7,
+      "ts": 60000
+    },
+    {
+      "channels": {
+        "core_temp": 38.65,
+        "spo2": 95.8
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 70500,
+      "seq": 8,
+      "ts": 70000
+    },
+    {
+      "channels": {
+        "core_temp": 38.55
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 70800,
+      "seq": 8,
+      "ts": 70000
+    },
+    {
+      "channels": {
+        "eeg": 35.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 70700,
+      "seq": 8,
+      "ts": 70000
+    },
+    {
+      "channels": {
+        "core_temp": 38.7,
+        "spo2": 95.8
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 80500,
+      "seq": 9,
+      "ts": 80000
+    },
+    {
+      "channels": {
+        "core_temp": 38.6
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 80800,
+      "seq": 9,
+      "ts": 80000
+    },
+    {
+      "channels": {
+        "eeg": 35.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 80700,
+      "seq": 9,
+      "ts": 80000
+    },
+    {
+      "channels": {
+        "core_temp": 38.75,
+        "spo2": 95.8
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 90500,
+      "seq": 10,
+      "ts": 90000
+    },
+    {
+      "channels": {
+        "core_temp": 38.65
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 90800,
+      "seq": 10,
+      "ts": 90000
+    },
+    {
+      "channels": {
+        "eeg": 35.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 90700,
+      "seq": 10,
+      "ts": 90000
+    },
+    {
+      "channels": {
+        "core_temp": 38.800000000000004,
+        "spo2": 95.8
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 100500,
+      "seq": 11,
+      "ts": 100000
+    },
+    {
+      "channels": {
+        "core_temp": 38.7
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 100800,
+      "seq": 11,
+      "ts": 100000
+    },
+    {
+      "channels": {
+        "eeg": 35.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 100700,
+      "seq": 11,
+      "ts": 100000
+    },
+    {
+      "channels": {
+        "core_temp": 38.85,
+        "spo2": 95.8
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 110500,
+      "seq": 12,
+      "ts": 110000
+    },
+    {
+      "channels": {
+        "core_temp": 38.75
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 110800,
+      "seq": 12,
+      "ts": 110000
+    },
+    {
+      "channels": {
+        "eeg": 35.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 110700,
+      "seq": 12,
+      "ts": 110000
+    },
+    {
+      "channels": {
+        "core_temp": 38.9,
+        "spo2": 95.5
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 155000,
+      "seq": 13,
+      "ts": 115000
+    },
+    {
+      "channels": {
+        "core_temp": 39.6,
+        "spo2": 92.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 120500,
+      "seq": 14,
+      "ts": 120000
+    },
+    {
+      "channels": {
+        "core_temp": 38.2
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 120900,
+      "seq": 13,
+      "ts": 120000
+    },
+    {
+      "channels": {
+        "eeg": 40.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 120700,
+      "seq": 13,
+      "ts": 120000
+    },
+    {
+      "channels": {
+        "core_temp": 39.63,
+        "spo2": 92.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 130500,
+      "seq": 15,
+      "ts": 130000
+    },
+    {
+      "channels": {
+        "core_temp": 38.2
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 130900,
+      "seq": 14,
+      "ts": 130000
+    },
+    {
+      "channels": {
+        "eeg": 95.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 130700,
+      "seq": 14,
+      "ts": 130000
+    },
+    {
+      "channels": {
+        "core_temp": 39.660000000000004,
+        "spo2": 92.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 140500,
+      "seq": 16,
+      "ts": 140000
+    },
+    {
+      "channels": {
+        "core_temp": 38.2
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 140900,
+      "seq": 15,
+      "ts": 140000
+    },
+    {
+      "channels": {
+        "eeg": 95.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 140700,
+      "seq": 15,
+      "ts": 140000
+    },
+    {
+      "channels": {
+        "core_temp": 39.690000000000005,
+        "spo2": 92.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 150500,
+      "seq": 17,
+      "ts": 150000
+    },
+    {
+      "channels": {
+        "core_temp": 38.2
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 150900,
+      "seq": 16,
+      "ts": 150000
+    },
+    {
+      "channels": {
+        "eeg": 95.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 150700,
+      "seq": 16,
+      "ts": 150000
+    },
+    {
+      "channels": {
+        "core_temp": 39.72,
+        "spo2": 89.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 160500,
+      "seq": 18,
+      "ts": 160000
+    },
+    {
+      "channels": {
+        "core_temp": 38.2
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 160900,
+      "seq": 17,
+      "ts": 160000
+    },
+    {
+      "channels": {
+        "eeg": 95.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 160700,
+      "seq": 17,
+      "ts": 160000
+    },
+    {
+      "channels": {
+        "core_temp": 39.75,
+        "spo2": 89.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 170500,
+      "seq": 19,
+      "ts": 170000
+    },
+    {
+      "channels": {
+        "core_temp": 45.0
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 170900,
+      "seq": 18,
+      "ts": 170000
+    },
+    {
+      "channels": {
+        "eeg": 95.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 170700,
+      "seq": 18,
+      "ts": 170000
+    },
+    {
+      "channels": {
+        "core_temp": 40.2,
+        "spo2": 88.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 180500,
+      "seq": 20,
+      "ts": 180000
+    },
+    {
+      "channels": {
+        "core_temp": 40.3
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 180600,
+      "seq": 19,
+      "ts": 180000
+    },
+    {
+      "channels": {
+        "core_temp": 40.300000000000004,
+        "spo2": 88.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 190500,
+      "seq": 21,
+      "ts": 190000
+    },
+    {
+      "channels": {
+        "core_temp": 40.379999999999995
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 190600,
+      "seq": 20,
+      "ts": 190000
+    },
+    {
+      "channels": {
+        "core_temp": 40.400000000000006,
+        "spo2": 88.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 200500,
+      "seq": 22,
+      "ts": 200000
+    },
+    {
+      "channels": {
+        "core_temp": 40.459999999999994
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 200600,
+      "seq": 21,
+      "ts": 200000
+    },
+    {
+      "channels": {
+        "core_temp": 40.5,
+        "spo2": 84.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 210500,
+      "seq": 23,
+      "ts": 210000
+    },
+    {
+      "channels": {
+        "core_temp": 40.54
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 210600,
+      "seq": 22,
+      "ts": 210000
+    },
+    {
+      "channels": {
+        "core_temp": 40.6,
+        "spo2": 84.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 205500,
+      "seq": 24,
+      "ts": 205000
+    },
+    {
+      "channels": {
+        "core_temp": 40.62
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 220600,
+      "seq": 23,
+      "ts": 220000
+    },
+    {
+      "channels": {
+        "core_temp": 40.7,
+        "spo2": 84.0
+      },
+      "device_sn": "W-TEMP-A",
+      "rx_ts": 230500,
+      "seq": 25,
+      "ts": 230000
+    },
+    {
+      "channels": {
+        "core_temp": 40.699999999999996
+      },
+      "device_sn": "W-TEMP-B",
+      "rx_ts": 230600,
+      "seq": 24,
+      "ts": 230000
+    },
+    {
+      "channels": {
+        "eeg": 28.0
+      },
+      "device_sn": "W-EEG-A",
+      "rx_ts": 40700,
+      "seq": 5,
+      "ts": 40000
+    }
+  ],
+  "scenario": "高温",
+  "subject_id": "P-HEAT-01",
+  "window_ms": 60000
+}
